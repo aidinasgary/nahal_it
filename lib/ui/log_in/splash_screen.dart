@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nahal_it/ui/sign_in_one.dart';
+import 'package:nahal_it/ui/log_in/log_in_one.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -13,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Future.delayed(Duration(milliseconds: 2500), () {
-      Navigator.of(context).pushReplacementNamed(SignInOne.tag);
+      Navigator.of(context).pushReplacementNamed(LogInOne.tag);
     });
   }
 
