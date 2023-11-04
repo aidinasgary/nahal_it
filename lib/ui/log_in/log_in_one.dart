@@ -19,19 +19,20 @@ class _SignInOneState extends State<LogInOne> {
           decoration: BoxDecoration(
               gradient: LinearGradient(
             colors: [
-              Color.fromARGB(255, 50, 241, 107),
-              Color.fromARGB(255, 7, 201, 0),
+              Color.fromARGB(255, 213, 241, 198),
+              Color.fromARGB(255, 2, 179, 11),
             ],
             begin: FractionalOffset(0.0, 0.0),
-            end: FractionalOffset(0.0, 1.3),
+            end: FractionalOffset(0.2, 1.0),
             stops: [0.0, 1.0],
             tileMode: TileMode.clamp,
           )),
           child: Column(children: [
             Expanded(
-              flex: 6,
+              flex: 3,
               child: Container(
                 color: Colors.amber,
+                width: double.infinity,
               ),
             ),
             Expanded(
